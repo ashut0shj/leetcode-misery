@@ -9,6 +9,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res = []
         nums.sort()
+        #i dont like it 
 
         for i, a in enumerate(nums):
             if a > 0:
